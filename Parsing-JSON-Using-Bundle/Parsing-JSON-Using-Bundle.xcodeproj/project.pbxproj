@@ -17,6 +17,7 @@
 		3E5FEB5924D8EC7B00C238E5 /* President.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FEB5824D8EC7B00C238E5 /* President.swift */; };
 		3E5FEB6124D8EDEE00C238E5 /* Parsing_JSON_Using_BundleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FEB6024D8EDEE00C238E5 /* Parsing_JSON_Using_BundleTests.swift */; };
 		3E5FEB6924D8F2E000C238E5 /* Bundle+ParsingJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FEB6824D8F2E000C238E5 /* Bundle+ParsingJSON.swift */; };
+		3E5FEBAC24DBA2DD00C238E5 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FEBAB24DBA2DD00C238E5 /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3E5FEB6024D8EDEE00C238E5 /* Parsing_JSON_Using_BundleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsing_JSON_Using_BundleTests.swift; sourceTree = "<group>"; };
 		3E5FEB6224D8EDEE00C238E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E5FEB6824D8F2E000C238E5 /* Bundle+ParsingJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+ParsingJSON.swift"; sourceTree = "<group>"; };
+		3E5FEBAB24DBA2DD00C238E5 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		3E5FEB4124D8EBC300C238E5 /* Parsing-JSON-Using-Bundle */ = {
 			isa = PBXGroup;
 			children = (
+				3E5FEBAA24DBA2BE00C238E5 /* Secrets */,
 				3E5FEB4224D8EBC300C238E5 /* AppDelegate.swift */,
 				3E5FEB4424D8EBC300C238E5 /* SceneDelegate.swift */,
 				3E5FEB4624D8EBC300C238E5 /* ViewController.swift */,
@@ -106,6 +109,14 @@
 				3E5FEB6224D8EDEE00C238E5 /* Info.plist */,
 			);
 			path = "Parsing-JSON-Using-BundleTests";
+			sourceTree = "<group>";
+		};
+		3E5FEBAA24DBA2BE00C238E5 /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				3E5FEBAB24DBA2DD00C238E5 /* Secrets.swift */,
+			);
+			path = Secrets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E5FEB6924D8F2E000C238E5 /* Bundle+ParsingJSON.swift in Sources */,
+				3E5FEBAC24DBA2DD00C238E5 /* Secrets.swift in Sources */,
 				3E5FEB5924D8EC7B00C238E5 /* President.swift in Sources */,
 				3E5FEB4724D8EBC300C238E5 /* ViewController.swift in Sources */,
 				3E5FEB4324D8EBC300C238E5 /* AppDelegate.swift in Sources */,
